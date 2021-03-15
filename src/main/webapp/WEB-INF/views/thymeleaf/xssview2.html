@@ -1,0 +1,9 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>xss view</title>
+</head>
+<body>
+    <p th:utext="'Hello, ' + ${name} + '!'" />
+</body>
+</html>
